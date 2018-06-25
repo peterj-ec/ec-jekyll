@@ -2,6 +2,8 @@
 layout: page
 title: About
 subtitle: This is page subtitle
+category: Something
+author: Peter
 permalink: /about/
 ---
 

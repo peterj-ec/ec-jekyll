@@ -22,14 +22,14 @@
 */
 (function () {
 
-    var headers = {"Etag": 1, "Last-Modified": 1, "Content-Length": 1, "Content-Type": 1},
+    var headers = { "Etag": 1, "Last-Modified": 1, "Content-Length": 1, "Content-Type": 1 },
         resources = {},
         pendingRequests = {},
         currentLinkElements = {},
         oldLinkElements = {},
         interval = 1000,
         loaded = false,
-        active = {"html": 1, "css": 1, "js": 1};
+        active = { "html": 1, "css": 1, "js": 1 };
 
     var Live = {
 
